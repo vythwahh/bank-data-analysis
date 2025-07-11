@@ -1,39 +1,57 @@
 # bank-data-analysis
-Bank Data Analysis with SQL: Querying customer profiles, transactions, savings, and loan records for financial insights 
-# Bank Data Analysis with SQL
+Welcome to a mini SQL data analysis project simulating a **banking system**, built and written by **Vy Thư** 
+The goal is to practice SQL skills by designing a database, populating it with realistic sample data, and writing 20 analysis queries — from beginner to intermediate level.
 
-Phân tích dữ liệu ngân hàng giả lập bằng SQL. Dự án bao gồm các truy vấn từ cơ bản đến nâng cao nhằm khai thác thông tin từ cơ sở dữ liệu khách hàng, tài khoản, giao dịch, tiết kiệm và khoản vay.
+---
 
-## Project Goals
-- Understand customer financial behavior
-- Summarize transaction data by type and time
-- Analyze savings and loan activities
-- Extract actionable financial insights
+## 📁 File Structure
 
-## 📁 Database Structure
-Includes 5 tables:
-- `Customers`
-- `Accounts`
-- `Transactions`
-- `Savings`
-- `Loans`
+| File | Description |
+|------|-------------|
+| `schema.sql` | Creates the database schema and inserts sample customer, account, transaction, savings, and loan data |
+| `queries.sql` | Contains 20 SQL queries to analyze the banking dataset |
 
-Full schema in [`schema.sql`](./schema.sql)
+---
 
-## SQL Queries
-Contains 20 queries ranging from basic joins to nested subqueries:
-- Customer & account overview
-- Transaction statistics (withdrawals, deposits, by month)
-- Savings and loan summaries
-- Top customers and advanced conditions
+## What You'll Learn
 
-See full queries in [`queries.sql`](./queries.sql)
+- How to create a relational database in SQL
+- Writing complex queries with:
+  - `JOIN`, `GROUP BY`, `HAVING`
+  - Aggregate functions: `SUM()`, `AVG()`, `COUNT()`
+  - Filtering by `YEAR()`, `MONTH()`
+  - Subqueries & nested logic (`EXISTS`, `ALL`, `IN`)
+- Simulating real-life banking scenarios such as:
+  - Transaction patterns
+  - Savings trends
+  - Loan tracking
+  - Customer segmentation
 
-## Insights
-- Top 3 accounts with highest withdrawals
-- Customers active in March 2024
-- Customers with no 2023 activity
-- Savings with term ≥ 12 months
+---
+
+## Example Questions Answered
+
+- Who are the top 3 accounts with the most withdrawals?
+- What is the total number of transactions in each month of 2024?
+- Which customers didn’t perform any transactions in 2023?
+- What is the average loan term for each borrower?
+- Which accounts deposit more money than they withdraw?
+
+---
+
+## How to Run This Project
+
+1. Clone the repository or download the `.sql` files.
+2. Import `schema.sql` into your MySQL or MariaDB environment.
+3. Open `queries.sql` and run each query step by step to explore and analyze the dataset.
+
+---
+
+## Tags
+
+`SQL` `Database` `Banking` `Data Analysis` `Mini Project` `Portfolio`
+
+---
 
 ## By
 **Nguyễn Triệu Vy Thư ** – Student at HCMUS, Math-Informatics 
